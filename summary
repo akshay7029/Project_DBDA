@@ -1,0 +1,28 @@
+# 🔥 Calorie Burn Prediction System
+
+A complete end-to-end project that predicts calories burned during physical activity using Machine Learning, Big Data (Hadoop, PySpark), and interactive dashboards.
+
+## 📌 Features
+- Predicts calories burned based on age, gender, weight, height, duration, and heart rate.
+- Uses **Linear Regression** from scikit-learn for model building.
+- Integrated **Big Data tools**: stored `.csv` data in **HDFS**, processed with **PySpark DataFrames** and **Spark SQL**.
+- GUI built with **Tkinter** for real-time calorie estimation.
+- Dashboards created in **Tableau** to explore trends and relationships visually.
+
+## ⚙️ Tech Stack
+- Python, Pandas, NumPy, scikit-learn
+- PySpark, Spark SQL, Hadoop HDFS
+- Tableau, Tkinter
+- Jupyter Notebook
+
+## 📊 Outputs
+- Prediction metrics: MAE, MSE, RMSE, R²
+- Visualizations: average calories by age/gender, correlation heatmaps, scatter plots
+
+## 🚀 Future Work
+- Integrate real-time data from smart devices
+- Use advanced ML models like Random Forest or XGBoost
+- Deploy GUI as web/mobile app
+
+
+
